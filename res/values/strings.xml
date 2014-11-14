@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yamba</string>
+    <string name="titleStatus">Status Update</string>
+    <string name="hintText">Please enter your 140-character status</string>
+    <string name="buttonUpdate">Update</string>
+    <string name="action_settings">Settings</string>
+    <string name="count">000</string>
+    <string name="titleUsername">Username</string>
+    <string name="titlePassword">Password</string>
+    <string name="titleApiRoot">apiRoot</string>
+    <string name="titlePreferences">Preferences</string>
+    <string name="summaryUserName">Please enter your Twitter username</string>
+    <string name="summaryPassword">Please enter your Twitter password</string>
+    <string name="summaryApiRoot">Please enter your api root</string>
+    <string name="titleServiceStart">Start Service</string>
+    <string name="titleServiceStop">Stop Service</string>
+    <string name="titleTimeline">Time Line</string>
+    <string name="msgSetupPreferences">Message Preferences</string>
+    <string name="titlePurge">Purge</string>
+    <string name="msgLastTimelineUpdate">Last Update</string>
+    <string name="send_timeline_notifications_permission_label">timeline_notifications_permission</string>
+    <string name="send_timeline_notifications_permission_description">send_timeline_notifications_permission_description</string>
+    <string name="receive_timeline_notifications_permission_label">receive_timeline_notifications_permission_label</string>
+    <string name="receive_timeline_notifications_permission_description">receive_timeline_notifications_permission_description</string>
+    <string name="titleProvider">Provider</string>
+    <string name="summaryProvider">Provider</string>
+    <string name="summaryUpdaterInterval">Updater Interval</string>
+    <string name="titleUpdaterInterval">Updater Interval</string>
+    <string name="titleRefresh">Refresh</string>
+    <string name="msgNotificationTitle">New Yamba Status Updates</string>
+	<string name="msgNotificationMessage">You\'ve got %d new status update(s)</string>
+    <string-array name="interval">
+		<item>Never</item>
+		<item>Every minute</item>
+		<item>Fifteen minutes</item>
+		<item>Half hour</item>
+		<item>An hour</item>
+		<item>Half day</item>
+		<item>Day</item>
+	</string-array>
+    <string-array name="intervalValues">
+        <item>0</item>
+        <item>60000</item>
+		<item>900000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>43200000</item>
+		<item>86400000</item>
+    </string-array>
+    
+    <string-array name="providers">
+        <item>None, please</item>
+        <item>GPS via satellites!</item>
+        <item>Mobile Network will do</item>
+    </string-array>
+    
+    <string-array name="providerValues">
+        <item>NONE</item>
+        <item>gps</item>
+        <item>network</item>
+    </string-array>
+
+</resources>
